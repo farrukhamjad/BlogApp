@@ -1,0 +1,51 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node modules
+node_modules
+
+# Build output
+dist
+dist-ssr
+
+# Environment files
+.env
+.env.*   # For any environment-specific files
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Tailwind and Vite config files (assuming these should stay tracked)
+# Tailwind
+tailwind.config.js
+# Vite
+vite.config.js
+
+# Ignore npm/yarn/pnpm lock files if not needed (uncomment if applicable)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Public assets (if there are generated build assets in the public folder)
+public/*
+!public/index.html  # Keep index.html or any other key files you need to track
+
+# Ignore any other files from src that don't need to be tracked (add if necessary)
+# src/temp/*
